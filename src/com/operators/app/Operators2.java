@@ -29,11 +29,11 @@ public class Operators2
 	{
 
 		
-		double tipPercent1 = 20;
-		double taxPercent1 = 8;
+		double tipPercent1 = 0.0;
+		double taxPercent1 = 0.0;
 		
-		tipPercent1 =  ((mealCost*tipPercent1)/100);
-		taxPercent1 =  ((mealCost*taxPercent1)/100);
+		tipPercent1 =  ((mealCost*tipPercent)/100);
+		taxPercent1 =  ((mealCost*taxPercent)/100);
 		totalCost = (int) Math.round(mealCost+tipPercent1+taxPercent1);
 		
 		
